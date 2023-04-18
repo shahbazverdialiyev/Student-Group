@@ -39,8 +39,6 @@ internal class Program
                             Console.WriteLine("GROUPS: ");
                             Contents.Groups.ForEach(g => Console.WriteLine(g.Name));
                             break;
-                        case "0":
-                            break;
                         default:
                             Console.WriteLine("Yuxardaki komandalardan birini yazin");
                             break;
